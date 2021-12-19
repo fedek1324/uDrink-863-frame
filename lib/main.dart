@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Frame 863',
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
+        appBarTheme: AppBarTheme(backgroundColor: Colors.black),
         primaryColor: kPrimaryColor,
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,

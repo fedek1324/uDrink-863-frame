@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^1.0.0
+  word_break_text: ^0.1.0
 
 dev_dependencies:
   flutter_test:
@@ -74,7 +75,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family: Mont
+      fonts:
+        - asset: assets/fonts/Mont-Bold.ttf
+        - asset: assets/fonts/Mont-Regular.ttf
+        - asset: assets/fonts/Mont-SemiBold.ttf
+        - asset: assets/fonts/Mont-Light.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
